@@ -27,7 +27,7 @@ The redirect fires before the page even renders so it feels instant.
 1. Go to `about:preferences#search`
 2. Scroll to **Search Shortcuts** → click **Add**
 3. Fill in:
-   - **Name:** !Bravado
+   - **Name:** Bravado
    - **URL:** `https://taqi42.github.io/bravado?q=%s`
 4. Set it as your **Default Search Engine**
 
@@ -36,7 +36,7 @@ The redirect fires before the page even renders so it feels instant.
 1. Go to `chrome://settings/searchEngines`
 2. Under **Site search** → click **Add**
 3. Fill in:
-   - **Name:** !Bravado
+   - **Name:** Bravado
    - **Shortcut:** `!`
    - **URL:** `https://taqi42.github.io/bravado?q=%s`
 4. Click the three dots next to it → **Make default**
