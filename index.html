@@ -8,10 +8,8 @@
       html {
         background: #111110;
       }
-      @media (prefers-color-scheme: light) {
-        html {
-          background: #fff;
-        }
+      html.light {
+        background: #f7f6f3;
       }
     </style>
     <script>
@@ -41,6 +39,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()">
+      ☀ light
+    </button>
     <div class="wrap">
       <div class="header">
         <div class="wordmark">Br<em>*</em>ve <em>!</em>Bangs</div>

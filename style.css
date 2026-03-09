@@ -9,10 +9,19 @@
 :root {
   --bg: #111110;
   --text: #e8e6e1;
-  --muted: #555;
+  --muted: #666;
   --border: #2a2a28;
   --brave: #e0440e;
   --google: #4285f4;
+}
+
+:root.light {
+  --bg: #f7f6f3;
+  --text: #1a1a1a;
+  --muted: #888;
+  --border: #dddbd6;
+  --brave: #e0440e;
+  --google: #1a73e8;
 }
 
 html,
@@ -61,7 +70,7 @@ body {
 .tagline {
   font-size: 0.85rem;
   font-weight: 300;
-  color: #666;
+  color: var(--muted);
   margin-top: 0.45rem;
 }
 
@@ -190,7 +199,7 @@ body {
 .label {
   font-size: 0.72rem;
   font-weight: 300;
-  color: #555;
+  color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.12em;
   margin-bottom: 0.9rem;
@@ -204,7 +213,7 @@ body {
 .bang {
   font-size: 0.88rem;
   font-weight: 400;
-  color: #666;
+  color: var(--muted);
   cursor: pointer;
   margin-right: 1.4rem;
   margin-bottom: 0.5rem;
@@ -236,7 +245,7 @@ body {
 }
 
 .footer a {
-  color: #555;
+  color: var(--muted);
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -246,6 +255,31 @@ body {
 
 .footer a:hover {
   color: #888;
+}
+
+/* ── Theme Toggle ── */
+.theme-toggle {
+  position: fixed;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-family: "DM Mono", monospace;
+  font-size: 0.72rem;
+  font-weight: 300;
+  padding: 0.3rem 0.7rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition:
+    color 0.15s,
+    border-color 0.15s;
+  letter-spacing: 0.05em;
+}
+
+.theme-toggle:hover {
+  color: var(--text);
+  border-color: var(--muted);
 }
 
 /* ── Keyframes ── */
