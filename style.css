@@ -231,6 +231,8 @@ body {
   bottom: 1.5rem;
   left: 50%;
   transform: translateX(-50%);
+  text-align: center;
+  width: max-content;
 }
 
 .footer a {
@@ -278,5 +280,42 @@ body {
   50% {
     opacity: 0.4;
     transform: scale(0.7);
+  }
+}
+
+/* ── Mobile ── */
+@media (max-width: 600px) {
+  body {
+    padding: 2rem 1.25rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrap {
+    gap: 2.5rem;
+    align-items: center;
+  }
+
+  .wordmark {
+    font-size: 1.8rem;
+  }
+
+  .bang {
+    font-size: 0.82rem;
+    margin-right: 1rem;
+  }
+
+  .footer {
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+  }
+}
+
+/* ── Prevent iOS auto-zoom on input focus ── */
+@media (max-width: 768px) {
+  #query {
+    font-size: 16px;
   }
 }
