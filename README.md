@@ -28,7 +28,7 @@ The redirect fires before the page even renders so it feels instant.
 2. Scroll to **Search Shortcuts** → click **Add**
 3. Fill in:
    - **Name:** Bravado
-   - **URL:** `https://taqi42.github.io/bravado?q=%s`
+   - **URL:** `https://bravado-bangs.vercel.app/?q=%s`
 4. Set it as your **Default Search Engine**
 
 **Chrome / Brave:**
@@ -38,7 +38,7 @@ The redirect fires before the page even renders so it feels instant.
 3. Fill in:
    - **Name:** Bravado
    - **Shortcut:** `!`
-   - **URL:** `https://taqi42.github.io/bravado?q=%s`
+   - **URL:** `https://bravado-bangs.vercel.app/?q=%s`
 4. Click the three dots next to it → **Make default**
 
 ---
